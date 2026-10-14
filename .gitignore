@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Raw scientific datasets
+data/raw/
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated datasets
+data/interim/
+data/processed/
+
+# Trained model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Local environment and editor files
+.vscode/
